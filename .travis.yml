@@ -25,4 +25,4 @@ script:
 - sfdx force:source:push -u ciorg
 - sfdx force:apex:test:run -u ciorg --wait 10
 - sfdx force:org:delete -u ciorg -p
-- sfdx force:source:deploy -u HubOrg  -p force-app/main/default
+# - sfdx force:source:deploy -u HubOrg  -p force-app/main/default
